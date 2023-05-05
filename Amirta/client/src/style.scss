@@ -1,0 +1,164 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400&family=Roboto&display=swap');
+
+
+body{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+
+    font-family: 'Comic Neue', cursive;
+    // font-family: 'Roboto', sans-serif;
+
+}
+
+button{
+    
+    color: black;
+    height: 2rem;
+    margin: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+p{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+}
+
+
+
+.link{
+    text-decoration: none;
+}
+.nav-bar{
+    background-color: lightblue;
+    text-align: center;
+    align-items: center;
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    padding: 0.5rem;
+    
+
+    .link{
+        font-size: 1.5rem;
+        font-weight: 900;
+    }
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+
+    
+
+    div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+
+        div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            
+
+            button{
+                width: 20rem;
+                height: 2rem;
+            }
+        }
+        
+        img{
+            width: 50%;
+            object-fit: contain;
+            border-radius: 0.5rem;
+            
+        }
+
+        .metamask{
+            box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+            padding: 1rem;
+        }
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+}
+
+.insurance-home{
+    .info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .insurance-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        .insurance-card{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 1rem;
+            padding: 0.5rem;
+            // background-color: antiquewhite;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+    }
+}
+
+
+.create-insurance{
+
+    div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 1rem;
+
+        input{
+            padding: 1rem;
+
+            width: 20rem;
+            border-radius: 0.6rem;
+        }
+    }
+}
+
+.verify-policy{
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
